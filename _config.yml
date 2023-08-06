@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 华灯初上
+subtitle: 夜未央
 description: ''
 keywords:
-author: John Doe
-language: en
+author: JiangCan
+language: zh-CN
 timezone: ''
 
 # URL
@@ -97,9 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: shoka
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:TaeyeonCc/Taeyeoncc.github.io.git
+  branch: master
